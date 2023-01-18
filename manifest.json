@@ -6,7 +6,7 @@
         "en": "A comptability software for CAE companies (french Communauté d'Activité et d'Emploi)",
         "fr": "Un progiciel de gestion comptable à l'usage des CAE (Communauté d'Activité et d'Emploi)"
     },
-    "version": "1.0~ynh1",
+    "version": "6.5.4~ynh1",
     "url": "https://endi.coop",
     "upstream": {
         "license": "GPLv3",

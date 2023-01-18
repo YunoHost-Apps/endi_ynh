@@ -1,5 +1,5 @@
-SOURCE_URL=https://framagit.org/endi/endi/-/archive/6ad0200603817e2e164c13ec2581746d49896e39/endi-6ad0200603817e2e164c13ec2581746d49896e39.tar.gz
-SOURCE_SUM=fbf62392be556cb3d24c9ef7176a576e105f0bb774bbeb678b8932289e7cb43b
+SOURCE_URL=https://framagit.org/endi/endi/-/archive/8d2d1e9cbc495dd48712d380c9f039a4e5b877dc/endi-8d2d1e9cbc495dd48712d380c9f039a4e5b877dc.tar.gz
+SOURCE_SUM=16fdee654c59c1ce1f914ca5a620fb9cebd3d2bd5e03e9d4442e68a5daf559ae
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true

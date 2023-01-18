@@ -117,9 +117,6 @@ ynh_setup_source --dest_dir="$final_path/endi"
 cython_version=$(cython3 --version 2>&1 | sed 's|Cython version ||')
 sed -i "s|Cython=.*|Cython==$cython_version|" "$final_path/endi/requirements.txt"
 
-# Patch endi-admin command bug
-sed -i "s|arguments.password|arguments.pwd|" "$final_path/endi/endi/scripts/endi_admin.py"
-
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
@@ -188,16 +185,14 @@ ynh_add_systemd_config
 #=================================================
 ynh_script_progression --message="Configuring enDI..." --weight=1
 
-(
-    cd "$final_path"
-
+pushd "$final_path" 2>&1
     ynh_exec_as $app "$final_path/venv/bin/endi-admin" endi.ini syncdb
+
     # ynh_exec_as $app "$final_path/venv/bin/endi-migrate" app.ini syncdb --pkg=endi_payment
 
-    # ynh_exec_as $app "$final_path/venv/bin/endi-admin" endi.ini useradd --group=admin --user="admin" --pwd="$password" \
-    #     --email="admin@$domain"
-
-)
+    ynh_exec_as $app "$final_path/venv/bin/endi-admin" endi.ini useradd --group=admin --user="admin" --pwd="$password" \
+        --email="admin@$domain"
+popd 2>&1
 
 #=================================================
 # GENERIC FINALIZATION
