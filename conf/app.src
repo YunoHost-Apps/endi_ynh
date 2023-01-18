@@ -1,5 +1,5 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://framagit.org/endi/endi/-/archive/6ad0200603817e2e164c13ec2581746d49896e39/endi-6ad0200603817e2e164c13ec2581746d49896e39.tar.gz
+SOURCE_SUM=fbf62392be556cb3d24c9ef7176a576e105f0bb774bbeb678b8932289e7cb43b
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
