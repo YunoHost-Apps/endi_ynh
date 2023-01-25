@@ -3,20 +3,20 @@
     "id": "endi",
     "packaging_format": 1,
     "description": {
-        "en": "A comptability software for CAE companies (french Communauté d'Activité et d'Emploi)",
-        "fr": "Un progiciel de gestion comptable à l'usage des CAE (Communauté d'Activité et d'Emploi)"
+        "en": "Comptability software for CAE companies (french Communauté d'Activité et d'Emploi)",
+        "fr": "Progiciel de gestion comptable à l'usage des CAE (Communauté d'Activité et d'Emploi)"
     },
     "version": "6.5.4~ynh1",
     "url": "https://endi.coop",
     "upstream": {
-        "license": "GPLv3",
+        "license": "AGPL-3.0-or-later",
         "website": "https://endi.coop",
         "demo": "https://demo.endi.coop",
         "admindoc": "https://framagit.org/endi/endi",
         "userdoc": "https://doc.endi.coop",
         "code": "https://framagit.org/endi/endi"
     },
-    "license": "free",
+    "license": "AGPL-3.0-or-later",
     "maintainer": {
         "name": "Salamandar",
         "email": "felix@piedallu.me"
@@ -42,26 +42,12 @@
                 "default": true
             },
             {
-                "name": "language",
-                "type": "string",
-                "ask": {
-                    "en": "Choose the application language",
-                    "fr": "Choisissez la langue de l'application"
-                },
-                "choices": ["fr", "en"],
-                "default": "fr"
-            },
-            {
                 "name": "admin",
                 "type": "user"
             },
             {
                 "name": "password",
-                "type": "password",
-                "help": {
-                    "en": "Use the help field to add an information for the admin about this question.",
-                    "fr": "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
-                }
+                "type": "password"
             }
         ]
     }

@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # enDI for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/endi.svg)](https://dash.yunohost.org/appci/app/endi) ![Working status](https://ci-apps.yunohost.org/ci/badges/endi.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/endi.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/endi.svg)](https://dash.yunohost.org/appci/app/endi) ![Working status](https://ci-apps.yunohost.org/ci/badges/endi.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/endi.maintain.svg)
 [![Install enDI with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=endi)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -15,16 +15,13 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Some long and extensive description of what the app is and does, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+enDI is a business management software package. It is the management tool for economic and social activity entirely dedicated to CAEs as well as to any company and group of independent entrepreneurs.
 
-### Features
+### Features :
 
-- Ut enim ad minim veniam, quis nostrud exercitation ullamco ;
-- Laboris nisi ut aliquip ex ea commodo consequat ;
-- Duis aute irure dolor in reprehenderit in voluptate ;
-- Velit esse cillum dolore eu fugiat nulla pariatur ;
-- Excepteur sint occaecat cupidatat non proident, sunt in culpa."
-
+- Social management of entrepreneurs
+- Social and statistical management of support for reporting to funders
+- Support for the entrepreneurial journey and commercial activity of entrepreneurs
 
 **Shipped version:** 6.5.4~ynh1
 
@@ -33,21 +30,6 @@ Some long and extensive description of what the app is and does, lorem ipsum dol
 ## Screenshots
 
 ![Screenshot of enDI](./doc/screenshots/example.jpg)
-
-## Disclaimers / important information
-
-* Any known limitations, constrains or stuff not working, such as (but not limited to):
-    * requiring a full dedicated domain ?
-    * architectures not supported ?
-    * not-working single-sign on or LDAP integration ?
-    * the app requires an important amount of RAM / disk / .. to install or to work properly
-    * etc...
-
-* Other infos that people should be aware of, such as:
-    * any specific step to perform after installing (such as manually finishing the install, specific admin credentials, ...)
-    * how to configure / administrate the application if it ain't obvious
-    * upgrade process / specificities / things to be aware of ?
-    * security considerations ?
 
 ## Documentation and resources
 

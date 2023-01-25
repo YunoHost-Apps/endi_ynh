@@ -1,9 +1,7 @@
-Some long and extensive description of what the app is and does, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+enDI is a business management software package. It is the management tool for economic and social activity entirely dedicated to CAEs as well as to any company and group of independent entrepreneurs.
 
-### Features
+### Features :
 
-- Ut enim ad minim veniam, quis nostrud exercitation ullamco ;
-- Laboris nisi ut aliquip ex ea commodo consequat ;
-- Duis aute irure dolor in reprehenderit in voluptate ;
-- Velit esse cillum dolore eu fugiat nulla pariatur ;
-- Excepteur sint occaecat cupidatat non proident, sunt in culpa."
+- Social management of entrepreneurs
+- Social and statistical management of support for reporting to funders
+- Support for the entrepreneurial journey and commercial activity of entrepreneurs

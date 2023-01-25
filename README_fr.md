@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # enDI pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/endi.svg)](https://dash.yunohost.org/appci/app/endi) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/endi.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/endi.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/endi.svg)](https://dash.yunohost.org/appci/app/endi) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/endi.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/endi.maintain.svg)
 [![Installer enDI avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=endi)
 
 *[Read this readme in english.](./README.md)*
@@ -15,15 +15,13 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Some long and extensive description of what the app is and does, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+enDI est un progiciel de gestion d'entreprise. C'est l'outil de pilotage de l'activité économique et sociale entièrement dédié aux CAE ainsi qu'à toute entreprise et collectif d'entrepreneur.euse.s indépendant.e.s.
 
-### Features
+### Caractéristiques :
 
-- Ut enim ad minim veniam, quis nostrud exercitation ullamco ;
-- Laboris nisi ut aliquip ex ea commodo consequat ;
-- Duis aute irure dolor in reprehenderit in voluptate ;
-- Velit esse cillum dolore eu fugiat nulla pariatur ;
-- Excepteur sint occaecat cupidatat non proident, sunt in culpa."
+- Gestion sociale des entrepreneurs
+- Gestion sociale et statistique de l'accompagnement pour le reporting aux financeurs
+- Accompagnement du parcours entrepreneurial et de l'activité commerciale des entrepreneurs
 
 
 **Version incluse :** 6.5.4~ynh1
@@ -33,21 +31,6 @@ Some long and extensive description of what the app is and does, lorem ipsum dol
 ## Captures d’écran
 
 ![Capture d’écran de enDI](./doc/screenshots/example.jpg)
-
-## Avertissements / informations importantes
-
-* Any known limitations, constrains or stuff not working, such as (but not limited to):
-    * requiring a full dedicated domain ?
-    * architectures not supported ?
-    * not-working single-sign on or LDAP integration ?
-    * the app requires an important amount of RAM / disk / .. to install or to work properly
-    * etc...
-
-* Other infos that people should be aware of, such as:
-    * any specific step to perform after installing (such as manually finishing the install, specific admin credentials, ...)
-    * how to configure / administrate the application if it ain't obvious
-    * upgrade process / specificities / things to be aware of ?
-    * security considerations ?
 
 ## Documentations et ressources
 
