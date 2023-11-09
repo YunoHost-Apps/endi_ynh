@@ -1,5 +1,5 @@
 [Unit]
-Description=enDI, logiciel de comptabilité pour CAE
+Description=enDI: logiciel de comptabilité pour CAE
 After=network.target
 
 [Service]

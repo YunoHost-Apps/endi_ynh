@@ -7,12 +7,12 @@ name = "enDI"
 description.en = "Comptability software for CAE companies (french Communauté d'Activité et d'Emploi)"
 description.fr = "Progiciel de gestion comptable à l'usage des CAE (Communauté d'Activité et d'Emploi)"
 
-version = "6.5.4~ynh1"
+version = "6.6.4~ynh1"
 
 maintainers = ["Salamandar"]
 
 [upstream]
-license = "AGPL-3.0-or-later"
+license = "AGPL-3.0"
 website = "https://endi.coop"
 demo = "https://demo.endi.coop"
 admindoc = "https://framagit.org/endi/endi"
@@ -20,7 +20,7 @@ userdoc = "https://doc.endi.coop"
 code = "https://framagit.org/endi/endi"
 
 [integration]
-yunohost = ">= 11.1.19"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -45,8 +45,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://framagit.org/endi/endi/-/archive/8d2d1e9cbc495dd48712d380c9f039a4e5b877dc/endi-8d2d1e9cbc495dd48712d380c9f039a4e5b877dc.tar.gz"
-    sha256 = "16fdee654c59c1ce1f914ca5a620fb9cebd3d2bd5e03e9d4442e68a5daf559ae"
+    url = "https://framagit.org/endi/endi/-/archive/ea2d73983d1b4f55201cb606dce5b58bc30a0553/endi-ea2d73983d1b4f55201cb606dce5b58bc30a0553.tar.bz2"
+    sha256 = "6a7983bca4d3b64d6a5df1425c1abae3748247eab52222430cbb1c85284ebef6"
 
     [resources.ports]
 
@@ -60,7 +60,7 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = [
-        "mariadb_server",
+        "mariadb-server",
         "python3-pip",
         "python3-venv",
         "cython3",
