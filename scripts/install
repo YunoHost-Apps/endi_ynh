@@ -41,6 +41,7 @@ chown -R "$app:www-data" "$install_dir"
 # NGINX CONFIGURATION
 #=================================================
 ynh_script_progression --message="Configuring NGINX web server..." --weight=1
+
 ynh_add_nginx_config
 
 #=================================================
@@ -75,20 +76,8 @@ ynh_script_progression --message="Configuring a systemd service..." --weight=1
 # Create a dedicated systemd config
 ynh_add_systemd_config
 
-#=================================================
-# SETUP APPLICATION
-#=================================================
-ynh_script_progression --message="Configuring enDI..." --weight=1
-
 __ynh_endi_migratedb
 __ynh_endi_add_admin
-
-#=================================================
-# GENERIC FINALIZATION
-#=================================================
-# SETUP LOGROTATE
-#=================================================
-ynh_script_progression --message="Configuring log rotation..." --weight=1
 
 # Use logrotate to manage application logfile(s)
 ynh_use_logrotate

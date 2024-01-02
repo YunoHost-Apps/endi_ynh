@@ -20,11 +20,14 @@ userdoc = "https://doc.endi.coop"
 code = "https://framagit.org/endi/endi"
 
 [integration]
-yunohost = ">= 11.1.19"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
+
 ldap = false
+
 sso = false
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
@@ -60,7 +63,7 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = [
-        "mariadb_server",
+        "mariadb-server",
         "python3-pip",
         "python3-venv",
         "cython3",
