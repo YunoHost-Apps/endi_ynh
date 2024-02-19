@@ -47,6 +47,7 @@ ram.runtime = "50M"
     [resources.sources.main]
     url = "https://framagit.org/endi/endi/-/archive/ea2d73983d1b4f55201cb606dce5b58bc30a0553/endi-ea2d73983d1b4f55201cb606dce5b58bc30a0553.tar.bz2"
     sha256 = "6a7983bca4d3b64d6a5df1425c1abae3748247eab52222430cbb1c85284ebef6"
+    autoupdate.strategy = "latest_gitlab_commit"
 
     [resources.ports]
 
